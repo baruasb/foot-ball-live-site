@@ -83,8 +83,14 @@ body{
 
 
 
+/* blog part css */
 
 
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
 
 .blogs{
     width: 315px;
