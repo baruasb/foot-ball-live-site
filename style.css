@@ -1,0 +1,77 @@
+/* google popine fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+
+
+
+/* fitrst header section*/
+.first-section{
+    display: flex;
+    background-image: url(world-cup-main/assets/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: right 70px;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 130px;
+}
+
+.title{
+
+    font-size: 50px;
+}
+
+.fifa-intro{
+    padding: 50px;
+    color: white;
+    width: 55%;
+  
+}
+
+.link-button{
+    text-decoration: none;
+    background-color:rgb(203, 2, 2);
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+
+/* blog section added */
+
+.group{
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.all-group{
+    display: flex ;
+   flex-direction: column;
+   padding: 30px 30px 30px 17px;
+   gap: 30px;
+   width: 252px;
+}
+
+.all-group a{
+    border-radius: 5px;
+    padding: 17px 39px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#blog-link-button{
+    background-color: rgb(174, 0, 0);
+    color: white;
+}
