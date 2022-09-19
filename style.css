@@ -5,6 +5,12 @@
 body{
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+main{
+
     margin: 50px;
 }
 
@@ -119,4 +125,36 @@ body{
 .font-text{
     margin-bottom: 20px;
     padding-left: 10px;
+}
+
+
+
+
+/*footer class */
+
+
+
+
+.footer-section{
+
+    margin-top: 170px;
+    margin-left: 0; 
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+.footer{
+    display: flex;
+   gap: 25px;
+   justify-content: center;
+   color: white;
+   
 }
