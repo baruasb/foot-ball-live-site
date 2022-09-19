@@ -87,12 +87,17 @@ main{
     color: white;
 }
 
+.icon{
+    margin-left: 20px;
+}
+
 
 
 /* blog part css */
 
 
 .blog{
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
@@ -132,9 +137,6 @@ main{
 
 /*footer class */
 
-
-
-
 .footer-section{
 
     margin-top: 170px;
@@ -157,4 +159,40 @@ main{
    justify-content: center;
    color: white;
    
+}
+
+
+
+/*media query section*/
+
+@media screen and (max-width: 767px) {
+       
+        .first-section{
+
+            flex-direction: column;
+           
+        } 
+
+      
+
+        .blog{
+          
+            flex-direction: column;
+        }
+         
+        .second-section{
+            flex-direction: column;
+        
+        }
+
+        .blog{
+            display: flex;
+            flex-direction: column;
+            margin-top: 55px;
+        }
+        
+        .footer{
+            flex-direction: column;
+            align-items: center;
+        }
 }
